@@ -1,7 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /*
 ReactElement(Object) => HTML(Browser Understands)
 */
-
 const parent = React.createElement(
   "div",
   { id: "parent" },
